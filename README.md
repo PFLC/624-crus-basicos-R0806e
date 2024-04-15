@@ -45,6 +45,21 @@ Este repositorio contiene una aplicación PHP CRUD (Create, Read, Update, Delete
 - **Características:** 
   - Eliminación de información de usuario basada en el ID de usuario.
 
+## Lista o tabla que muestre los registros existentes.
+
+| ID  | Nombre    | Descripción           | Precio  | Cantidad | Acciones          |
+|-----|-----------|-----------------------|---------|----------|-------------------|
+| 1   | Producto A| Descripción del A     | $10.00  | 100      | Ver / Editar / Eliminar |
+| 2   | Producto B| Descripción del B     | $15.00  | 50       | Ver / Editar / Eliminar |
+| 3   | Producto C| Descripción del C     | $20.00  | 200      | Ver / Editar / Eliminar |
+
+ID: Identificador único de cada registro en la base de datos.
+Nombre: Nombre del producto u otro tipo de registro.
+Descripción: Breve descripción del registro.
+Precio: Precio del producto o valor relevante.
+Cantidad: Cantidad disponible del producto o cantidad relacionada con el registro.
+Acciones: En esta columna, puedes incluir enlaces o botones para ver, editar o eliminar cada registro.
+
 ## Conexión a la Base de Datos (`connect.php`)
 
 - **Propósito:** Establece una conexión con la base de datos MySQL.
